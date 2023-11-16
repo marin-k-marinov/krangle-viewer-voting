@@ -10,6 +10,8 @@ This tool can be hosted as a website (e.g. on github pages) but I recommend just
 ## How to Use
 - download this repository with `git` or just click `Code > Download ZIP` on github 
 - open `index.html` in your browser (e.g. double click on `[...]/Downloads/krangle-viewer/index.html`)
+- to addapt to PoE version after 3.22, get latests skills from https://www.pathofexile.com/fullscreen-passive-skill-tree/3.22.2/ (or exivalent version URL) and replace `var passiveSkillTreeData` data
+- adapt URLs in fetch request to match the backend
 - host it on php environment (xampp or shared hosting)
 - click on a node, then use the top left search bar to find its appropriate replacement and click it
 - click 'Copy info to clipboard' to copy your changes so far in `.json` format
